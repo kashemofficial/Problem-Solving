@@ -1,0 +1,6 @@
+N = input().split()
+a = int(N[0])
+b = int(N[1])
+c = int(N[2])
+D = max(a,b,c)
+print(D,"eh o maior")
