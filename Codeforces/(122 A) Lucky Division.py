@@ -1,4 +1,15 @@
 n = int(input())
+c = 0
+arr={4,7,47,74,44,444,447,474,477,777,774,744}
+for i in arr:
+    if(n%i==0):
+        c = True
+if c:
+    print("YES")
+else:
+    print("NO")
+
+'''n = int(input())
 if (n%4==0):
     print('YES')
 elif(n%7==0):
@@ -28,4 +39,4 @@ elif (n%774==0):
 elif (n%777==0):
     print('YES')
 else:
-    print('NO')
+    print('NO')'''
