@@ -1,0 +1,11 @@
+a11,a12 = map(int,input().split())
+a21,a22 = map(int,input().split())
+b11,b12 = map(int,input().split())
+b21,b22 = map(int,input().split())
+c1 = (a11*b11)+(a12*b21)
+c2 = (a11*b12)+(a12*b22)
+c3 = (a21*b11)+(a22*b21)
+c4 = (a21*b12)+(a22*b22)
+print(c1,c2)
+print(c3,c4)
+
